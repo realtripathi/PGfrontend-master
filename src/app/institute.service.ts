@@ -22,5 +22,6 @@ export class InstituteService {
     let url = 'http://localhost:8080/instituteLogin';
     return this.http.post<LoginStatus>(url, login);
   }
+  
 
 }
