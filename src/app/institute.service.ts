@@ -23,5 +23,4 @@ export class InstituteService {
     return this.http.post<LoginStatus>(url, login);
   }
   
-
 }
