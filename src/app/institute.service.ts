@@ -21,6 +21,6 @@ export class InstituteService {
   login(login: InstituteLogin): Observable<LoginStatus> {
     let url = 'http://localhost:8080/instituteLogin';
     return this.http.post<LoginStatus>(url, login);
-  }
+  } 
   
 }
